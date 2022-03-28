@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'realm-android'
+}
+
+apply from: rootProject.file("androidBase.gradle")
+
+android {
+    defaultConfig {
+        applicationId "com.example.realm.issuereport"
+        versionCode 1
+        versionName "1.0"
+    }
+    testBuildType "release"
+}
+
+dependencies {
+
+}

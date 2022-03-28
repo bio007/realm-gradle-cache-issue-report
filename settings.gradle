@@ -1,0 +1,3 @@
+rootProject.name = "Realm Issue Report"
+
+include ':app'
